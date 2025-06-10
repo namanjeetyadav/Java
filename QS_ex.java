@@ -73,15 +73,15 @@ public static void main(String[] args){
 // first and later customer has withdraw Rs. 3000.00. Write java program for the above operation 
 //and print the account balance after each transaction
 
-// float total_balance = 10000.00f;
-// System.out.println("Current balance is " + total_balance);
+float total_balance = 10000.00f;
+System.out.println("Current balance is " + total_balance);
 
-// float first_tran = 5000.00f;
-// total_balance = total_balance + first_tran;
-// System.out.println("After first transaction " + total_balance);
-// float second_tran = 3000.00f;
-// total_balance = total_balance - second_tran;
-// System.out.println("After second transaction " + total_balance);
+float first_tran = 5000.00f;
+total_balance += first_tran;
+System.out.println("After first transaction " + total_balance);
+float second_tran = 3000.00f;
+total_balance -= second_tran;
+System.out.println("After second transaction " + total_balance);
 
 
 
