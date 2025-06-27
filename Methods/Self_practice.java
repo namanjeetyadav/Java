@@ -18,7 +18,7 @@
 // Program 2
 class Self_practice {
     public static void main(String[] args) {
-       String name = "sahana is mad";
+       String name = "12345";
        int arlen = name.length();
        char[] arrayChar = new char[arlen];
        for (int i =arlen-1; i>=0; i--) {

@@ -1,6 +1,4 @@
 
-import com.sun.net.httpserver.Authenticator;
-import java.lang.classfile.constantpool.DoubleEntry;
 
 // class whole_square{
 //     public static int square(int n){
@@ -55,21 +53,41 @@ import java.lang.classfile.constantpool.DoubleEntry;
 // }
 
 
+//  class whole_square {
+
+//     public static boolean check_odd_even(int num) {
+//         if(num % 2 == 0) {
+          
+//             return true;
+//         } 
+//         else {
+            
+//             return false;
+//         }
+//     }
+
+//     public static void main(String[] agrs) {
+
+//         System.out.print(check_odd_even(10));
+//     }
+// }
+
+// Q. Define a method by name sumOfElements(). The method should accept the int type array. 
+// Method should calculate sum of all elements of the given array and return the sum to the caller method
+
  class whole_square {
 
-    public static boolean check_odd_even(int num) {
-        if(num % 2 == 0) {
-          
-            return true;
-        } 
-        else {
-            
-            return false;
+    public static int sum_array(int[] arr) {
+        int result = 0;
+        for(int i=0; i<arr.length; i++){
+            result = result + arr[i];
         }
+            return result;
+
     }
 
     public static void main(String[] agrs) {
-
-        System.out.print(check_odd_even(10));
+       int[] arr = {10, 12, 30};
+        System.out.print(sum_array(arr));
     }
 }
