@@ -13,7 +13,7 @@ class Student{
         this.marks = marks;
     }
     void details(){
-        System.out.println("Student id is "+ id + " name is " + name + " marks is " + marks );
+        System.out.println("Student id is "+ this.id + " name is " + this.name + " marks is " + this.marks );
     }
 }
 class MainClass6{
