@@ -12,7 +12,7 @@ account(String name, double account_balance){
 
 
 void details(){
-System.out.println("Account number is " + this.account_no + " Name " + this.name + "Account balance " + account_balance);
+System.out.println("Account number:" + this.account_no + " Name:" + this.name + " Account balance:" + account_balance);
 }
 
 }
