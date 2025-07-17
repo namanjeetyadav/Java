@@ -1,7 +1,7 @@
 class nearprime{
     public static void main(String[] args){
  
-int n =20;
+int n =100;
 int n1 = n;
 int n2 = n;
 
