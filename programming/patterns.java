@@ -117,14 +117,65 @@ class patterns {
                   */
 
  
-            for (int i = 1; i <= 5; i++) {
-               for (int j = i; j >= 1; j--) {
-                  System.out.print(j + " "); 
+        //     for (int i = 1; i <= 5; i++) {
+        //        for (int j = i; j >= 1; j--) {
+        //           System.out.print(j + " "); 
                  
+        //        }
+
+        //        System.out.println();
+        //    }
+                  /*1 
+                  2 1
+                  3 2 1
+                  4 3 2 1
+                  5 4 3 2 1
+                  */
+    //          int row =5;
+    //  for (int i = 1; i <= row; i++) {
+    //            for (int j = 1; j <=(row-i) ; j++) {
+    //             System.out.printf("  ");  
+                 
+    //            }
+           
+    //            for (int z = 1; z <=i; z++) {
+    //               System.out.printf(" *"); 
+    //            }
+
+    //            System.out.println();
+    //        }     
+           /*
+                        *
+                      * *
+                    * * *
+                  * * * *
+                * * * * *
+
+     */
+
+         int row =5;
+     for (int i = 1; i <= row; i++) {
+               for (int j = 1; j <=(row-i) ; j++) {
+                System.out.printf("  ");  
+                 
+               }
+           
+               for (int z = 1; z <=i; z++) {
+                  System.out.printf(" *"); 
                }
 
                System.out.println();
            }
+
+
+
+
+
+
+
+
+
+
 
 
     }
