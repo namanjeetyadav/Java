@@ -20,15 +20,6 @@ class mocktest {
 
 
 // Question 1
-int n=7;
-// int mid =(n/2)+1;
-int mid =4;
-for (int i =1; i <=mid ; i++) {
-    for (int j =1; j  ; j--){
-  System.out.print("*");
-    }
-System.out.println();
-}
 
 
 
